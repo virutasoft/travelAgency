@@ -32,6 +32,10 @@ html::-webkit-scrollbar-thumb {
   background: #10221b;
 }
 
+section {
+  padding: 5rem 9%;
+}
+
 .header {
   position: fixed;
   top: 0;
