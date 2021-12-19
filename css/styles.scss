@@ -270,6 +270,43 @@ html{
     }
 }
 
+// about section
+
+.about{
+    background: $light-bg;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .image{
+        flex: 1 1 42rem;
+        padding-right: 5rem;
+        padding-bottom: 5rem;
+
+        img{
+            width: 100%;
+            box-shadow: 4rem 4rem 0 rgba(0,0,0,.1);
+        }
+    }
+    .content{
+        flex: 1  1 42rem;
+
+        h3{
+            font-size: 3rem;
+            color: $green;
+
+        }
+        p{
+            font-size: 1.5rem;
+            color: $black;
+            padding: 1rem 0;
+            line-height: 2;
+        }
+    }
+}
+
+
 
 
 
@@ -299,6 +336,7 @@ html{
 @media(max-width: 991px){
     html{
         font-size: 55%;
+        scroll-padding-top: 7rem;
 
     }
     .home .box{
