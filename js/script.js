@@ -59,3 +59,38 @@ navigation: {
     prevEl: ".swiper-button-prev",
 },
 });
+
+
+// products slider
+var swiper = new Swiper(".product-slider", {
+    loop:true,
+    grabCursor:true,
+    spaceBetween: 20,
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+},
+breakpoints: {
+    0: {
+        slidesPerView: 1,
+  
+    },
+    640: {
+      slidesPerView: 2,
+
+    },
+    768: {
+      slidesPerView: 3,
+
+    },
+    1024: {
+      slidesPerView: 4,
+
+    },
+  },
+});
+//product slider
