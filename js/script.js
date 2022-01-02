@@ -156,3 +156,30 @@ breakpoints: {
   },
 });
 // blogs slider
+
+// clients slider
+var swiper = new Swiper(".clients-slider", {
+    loop:true,
+    grabCursor:true,
+    spaceBetween: 10,
+    autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+      },
+breakpoints: {
+    0: {
+        slidesPerView: 1,
+  
+    },
+    768: {
+      slidesPerView: 2,
+
+    },
+    991: {
+      slidesPerView: 4,
+
+    },
+    
+  },
+});
+// clients slider

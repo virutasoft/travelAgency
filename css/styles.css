@@ -698,6 +698,14 @@ section {
   color: #10221b;
 }
 
+.clients .slide {
+  text-align: center;
+}
+
+.clients .slide img {
+  height: 12rem;
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 2rem;
