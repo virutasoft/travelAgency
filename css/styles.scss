@@ -598,6 +598,62 @@ html{
 }
 // blog section
 
+//newsletter section
+.newsletter{
+    background: $light-bg;
+
+    .content{
+        max-width: 70rem;
+        margin: 1rem auto;
+        text-align: center;
+
+        p{
+            font-size: 1.5rem;
+            line-height: 2;
+            color: $black;
+        }
+
+        form{
+            margin-top: 2rem;
+            background: $white;
+            border-radius: 5rem;
+            border: $border;
+            padding: .7rem;
+            display: flex;
+
+            .email{
+                width: 100%;
+                background: none;
+                text-transform: none;
+                font-size: 1.6rem;
+                color: $black;
+                padding: 0 1.3rem;
+
+            }
+            .btn{
+                margin-top: 0;
+                border-radius: 5rem;
+                background: $green;
+                color: $white;
+                border-color: $green;
+
+                &:hover{
+                    background: none;
+                    color: $black;
+                }
+            }
+        }
+    }
+}
+//newsletter section
+
+
+
+
+
+
+
+
 
 
 
